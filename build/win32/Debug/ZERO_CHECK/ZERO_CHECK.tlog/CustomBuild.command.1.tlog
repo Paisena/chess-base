@@ -1,0 +1,10 @@
+^C:\USERS\M8AME\ONEDRIVE\DOCUMENTS\UCSC\UCSC YEAR 3 FALL\CMPM 123(ADVANCED PROGRAMMING)\CODE\CHESS-BASE\BUILD\CMAKEFILES\7DEA6B6CD931B9BD33D37686B6BB5E39\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base" "-BC:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/tictactoe.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

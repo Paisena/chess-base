@@ -61,6 +61,124 @@ void Chess::FENtoBoard(const std::string& fen) {
     // 3: castling availability (KQkq or -)
     // 4: en passant target square (in algebraic notation, or -)
     // 5: halfmove clock (number of halfmoves since the last capture or pawn advance)
+    
+    int x = 0;
+    int y = 7;
+    bool boardReading = true;
+
+    std::string digits = "12345678";
+
+    for (int i = 0; i < fen.length(); i++)
+    {
+        if(fen[i] == ' ')
+        {
+            boardReading = false;
+        }
+        if(fen[i] == '/')
+        {
+            y--;
+            x = -1;
+        }
+
+
+
+        if(!boardReading)
+        {
+            continue;
+        }
+        if(fen[i] == '1' || fen[i] == '2' ||fen[i] == '3' ||fen[i] == '4' || fen[i] == '5' || fen[i] == '6' || fen[i] == '7' || fen[i] == '8')
+        {
+            int num = (int)fen[i];
+            x += num;
+        }
+
+        if(fen[i] == 'r')
+        {
+            Bit* piece = PieceForPlayer(1, Rook);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'R')
+        {
+            Bit* piece = PieceForPlayer(0, Rook);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'n')
+        {
+            Bit* piece = PieceForPlayer(1, Knight);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'N')
+        {
+            Bit* piece = PieceForPlayer(0, Knight);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+
+        if(fen[i] == 'b')
+        {
+            Bit* piece = PieceForPlayer(1, Bishop);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'B')
+        {
+            Bit* piece = PieceForPlayer(0, Bishop);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'q')
+        {
+            Bit* piece = PieceForPlayer(1, Queen);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'Q')
+        {
+            Bit* piece = PieceForPlayer(0, Queen);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'k')
+        {
+            Bit* piece = PieceForPlayer(1, King);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'K')
+        {
+            Bit* piece = PieceForPlayer(0, King);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'p')
+        {
+            Bit* piece = PieceForPlayer(1, Pawn);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        if(fen[i] == 'P')
+        {
+            Bit* piece = PieceForPlayer(0, Pawn);
+            ChessSquare* square = _grid->getSquare(x,y);
+            piece->setPosition(square->getPosition());
+            square->setBit(piece);
+        }
+        x++;
+    }
 }
 
 bool Chess::actionForEmptyHolder(BitHolder &holder)
