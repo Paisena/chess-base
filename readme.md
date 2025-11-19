@@ -11,3 +11,8 @@ FENtoBoard("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1");
 (you can ignore the end for now)
 
 This will allow you to quickly check that your castling, promotion and en passant code is working.
+
+
+
+Chess Movement Assignment 1:
+In this assignment I coded the three movements of king, pawn, and knights. I also have added captures for all the given pieces

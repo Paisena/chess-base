@@ -1,9 +1,34 @@
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/Experimental.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/Nightly.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/Continuous.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/NightlyMemoryCheck.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/demo.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/PACKAGE.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/Experimental.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/Nightly.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/Continuous.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyStart.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyUpdate.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyConfigure.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyBuild.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyTest.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyCoverage.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlyMemCheck.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/NightlySubmit.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalStart.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalUpdate.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalConfigure.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalBuild.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalTest.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalCoverage.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalMemCheck.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ExperimentalSubmit.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousStart.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousUpdate.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousConfigure.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousBuild.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousTest.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousCoverage.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousMemCheck.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/ContinuousSubmit.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/demo.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/package.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/package_source.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/test.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/edit_cache.dir
+C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build/CMakeFiles/rebuild_cache.dir

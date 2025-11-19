@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Site BuildName="Win32-MSBuild"
+<Site BuildName="Win32-mingw32-make"
 	BuildStamp="20251107-0241-Experimental"
 	Name="Piggtop"
 	Generator="ctest-4.1.1"
-	CompilerName="C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx86/x86/cl.exe"
-	CompilerVersion="19.44.35217.0"
+	CompilerName="C:/msys64/mingw64/bin/g++.exe"
+	CompilerVersion="12.2.0"
 	OSName="Windows"
 	Hostname="Piggtop"
 	OSRelease=" Personal"
@@ -25,11 +25,11 @@
 	ProcessorClockFrequency="2300"
 	>
 	<Testing>
-		<StartDateTime>Nov 07 00:45 Pacific Standard Time</StartDateTime>
-		<StartTestTime>1762505156</StartTestTime>
+		<StartDateTime>Nov 13 13:21 Pacific Standard Time</StartDateTime>
+		<StartTestTime>1763068916</StartTestTime>
 		<TestList/>
-		<EndDateTime>Nov 07 00:45 Pacific Standard Time</EndDateTime>
-		<EndTestTime>1762505156</EndTestTime>
+		<EndDateTime>Nov 13 13:21 Pacific Standard Time</EndDateTime>
+		<EndTestTime>1763068916</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

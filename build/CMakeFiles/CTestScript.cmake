@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.1.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base")
-set(CTEST_BINARY_DIRECTORY "C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123(Advanced Programming)/Code/chess-base/build")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base")
+set(CTEST_BINARY_DIRECTORY "C:/Users/m8ame/OneDrive/Documents/UCSC/UCSC Year 3 FALL/CMPM 123/Code/chess-base/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")
@@ -37,12 +37,12 @@ set(CTEST_P4_UPDATE_CUSTOM "")
 set(CTEST_P4_UPDATE_OPTIONS "")
 
 # CTest Configure Step
-set(CTEST_CMAKE_GENERATOR "Visual Studio 17 2022")
+set(CTEST_CMAKE_GENERATOR "MinGW Makefiles")
 set(CTEST_LABELS_FOR_SUBPROJECTS "")
 
 # CTest Build Step
 set(CTEST_CONFIGURATION_TYPE "Release")
-set(CTEST_USE_LAUNCHERS "0")
+set(CTEST_USE_LAUNCHERS "")
 
 # CTest Test Step
 set(CTEST_RESOURCE_SPEC_FILE "")
@@ -62,7 +62,7 @@ set(CTEST_MEMORYCHECK_SUPPRESSIONS_FILE "")
 
 # CTest Submit Step
 set(CTEST_SITE "Piggtop")
-set(CTEST_BUILD_NAME "Win32-MSBuild")
+set(CTEST_BUILD_NAME "Win32-mingw32-make")
 set(CTEST_SUBMIT_URL "http://")
 set(CTEST_SUBMIT_INACTIVITY_TIMEOUT "")
 set(CTEST_TLS_VERIFY "")
